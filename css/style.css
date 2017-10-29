@@ -16,6 +16,11 @@ body{
 	font-size: 1em;
 	line-height: 135%;
 }
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* \9 - for Internet Explorer 9 */
+}
 a{
 	color: #000000;
 	text-decoration: none;
@@ -35,6 +40,7 @@ header{
 	padding: 1%;
 	background-color: #fafafa;
 	border-bottom: 2px solid silver;
+	margin-bottom: 20px;
 }
 header #logo{
 	width: 40%;
@@ -76,6 +82,27 @@ header #regAuth div{
 }
 header #regAuth div:hover{
 	background-color: #e7e7e7;
+}
+
+/* Style for all document */
+#wrapper{
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+}
+#wrapper #leftCol{
+	width: 70%;
+	margin-right: 10%;
+	float: left;
+}
+#wrapper #rightCol{
+	width: 20%;
+	float: left;
+}
+#wrapper #rightCol .banner{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
 }
 
 /* Footer */
