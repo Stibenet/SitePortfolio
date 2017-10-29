@@ -90,11 +90,22 @@ header #regAuth div:hover{
 	margin-left: 10%;
 	float: left;
 }
+
+/* Style for left column */
+
 #wrapper #leftCol{
 	width: 70%;
 	margin-right: 10%;
 	float: left;
 }
+#wrapper #leftCol #bigArticle{
+	width: 80%;
+	margin-left: 10%;
+	background-color: #f6f6f6;
+	padding: 1%;
+}
+
+/* Style for right column */
 #wrapper #rightCol{
 	width: 20%;
 	float: left;
