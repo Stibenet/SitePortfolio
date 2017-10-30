@@ -142,6 +142,18 @@ header #regAuth div:hover{
 	width: 20%;
 }
 
+/* Style for page about us*/
+ #wrapper #leftCol #about_us{
+	width: 76%;
+	margin-left: 10%;
+	border: 1px solid silver;
+	padding: 2%;
+}
+ #wrapper #leftCol #about_us h2{
+ 	text-align: center;
+ 	margin-bottom: 3%;
+ }
+
 /* Style for right column */
 #wrapper #rightCol{
 	width: 20%;

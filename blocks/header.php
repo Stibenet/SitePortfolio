@@ -7,7 +7,7 @@
 		</div>
 
 		<div id="menuHead">
-		<a href="/about.html">
+		<a href="about.php">
 			<div style="margin-right: 5%">О нас</div>
 		</a>
 		<a href="/feedback.html">
