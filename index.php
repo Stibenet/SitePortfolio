@@ -1,37 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Марсель Фаткуллин</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php 
+	$title = "Марсель Фаткуллин";
+	require_once "blocks/head.php" 
+	?>
 </head>
 <body>
-	<header>
-		<div id="logo">
-			<a href="/" title="Перейти на главную">
-				<span>М</span>арсель
-				<span>Ф</span>аткуллин
-			</a>
-		</div>
 
-		<div id="menuHead">
-		<a href="/about.html">
-			<div style="margin-right: 5%">О нас</div>
-		</a>
-		<a href="/feedback.html">
-			<div>Обратная связь</div>
-		</a>
-		</div>
-
-		<div id="regAuth">
-		<a href="/reg.html">
-			<div style="margin-right: 5%">Регистрация</div>
-		</a>
-		<a href="/auth.html">
-			<div>Авторизация</div>
-		</a>
-		</div>
-	</header>
+	<?php require_once "blocks/header.php" ?>
 
 	<div id="wrapper">
 		<div id="leftCol">
@@ -64,26 +41,11 @@
 			</div>
 		</div>
 
-		<div id="rightCol">
-			<div id="banner">
-				<img src="img/banner_1.jpg" alt="Баннер 1" title="Баннер 1">
-			</div>
-			<div id="banner">
-				<img src="img/banner_2.jpg" alt="Баннер 2" title="Баннер 2">
-			</div>
-		</div>
+		<?php require_once "blocks/rightCol.php" ?>
+
 	</div>
 
-	<footer>
-		<div id="social">
-			<a href="https://vk.com/id56833040" title="Страница в Вк" target="_blank">
-				<img src="img/vk.png" alt="Вк" title="Вконтакте">
-			</a>
-		</div>
-		<div id="rights">
-			Все права защищены &copy; <!-- Раскоментировать при PHP <?=date ('Y')?>-->
-		</div>
+		<?php require_once "blocks/footer.php" ?>
 
-	</footer>
 </body>
 </html>
