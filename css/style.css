@@ -74,7 +74,7 @@ header #regAuth{
 	/*text-align: right;*/
 }
 header #regAuth div{
-	float: left;
+	float: right;
 	/*Обводка на надписи*/
 	padding: 5px;
 	background-color: #c8c8c8;
@@ -105,6 +105,12 @@ header #regAuth div:hover{
 	padding: 1%;
 	float: left;
 }
+#wrapper #leftCol h2{
+	font-size: 2em;
+	margin: 10px;
+	text-align: center;
+}
+
 #wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img{
 	width: 100%;
 	float: left;

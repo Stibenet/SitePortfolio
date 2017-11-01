@@ -8,7 +8,7 @@
 
 		<div id="menuHead">
 		<a href="about.php">
-			<div style="margin-right: 5%">О нас</div>
+			<div style="margin-right: 5%">Обо мне</div>
 		</a>
 		<a href="/feedback.html">
 			<div>Обратная связь</div>
@@ -16,9 +16,6 @@
 		</div>
 
 		<div id="regAuth">
-		<a href="/reg.html">
-			<div style="margin-right: 5%">Регистрация</div>
-		</a>
 		<a href="/auth.html">
 			<div>Авторизация</div>
 		</a>
